@@ -413,6 +413,12 @@ header li a:hover {
 	padding: 120px 0 200px 0;
 	background: #F2F2F2;
 }
+.service h3 {
+	color: #4A4A4A;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
 
 
 

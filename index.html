@@ -155,13 +155,14 @@
     </script>
 
     <script>
-        const nakamoz = (covid, project, street,plan)=> {
-            console.log (`知恵を絞った${covid}対策 ${project}フェス盛況<${street}／${plan}>`);
-            console.log (`大阪府商店街感染症対策等支援事業事務局`);
+        const nakamoz = (covid, project, street, goto, plan)=> {
+            console.log (`知恵を絞った${covid}対策 ${project}フェス盛況<${street}／${goto}>`);
+            console.log (`${plan}事務局`);
             console.log (`2020年11月16日 17時57分`);
             console.log (`大阪府では、感染症対策や需要喚起の支援を、モデルとなる107商店街で進めています。`);
+            console.log (`${plan}ウェブサイトでも、各商店街の取組みを紹介しています。`);
         };
-        nakamoz("コロナ", "なかもず", "中百舌鳥駅前通商店街", "GoTo商店街");
+        nakamoz("コロナ", "なかもず", "中百舌鳥駅前通商店街", "GoTo商店街", "大阪府商店街感染症対策等支援事業");
     </script>
 
     
