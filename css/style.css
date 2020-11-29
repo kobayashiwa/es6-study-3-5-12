@@ -31,8 +31,6 @@ a {
 }
 ul, li {
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 .container {
 	max-width: 1420px;
@@ -408,6 +406,11 @@ header li a:hover {
 	width: 100%;
 	border-radius: 50%;
 	box-shadow: 0 0 0 4px #fff, 0 0 0 6px #D8D8D8;
+}
+
+/** Service **/
+.service {
+	padding: 120px 0 200px 0;
 }
 
 
