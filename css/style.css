@@ -427,6 +427,9 @@ header li a:hover {
 	margin: 0 20px;
 	text-align: center;
 }
+.ServiceIcon {
+	background: rgba(125, 125, 125, 0.11);
+}
 
 
 
