@@ -441,6 +441,9 @@ header li a:hover {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.ServiceList li p {
+	color: #E0931E;
+}
 
 
 

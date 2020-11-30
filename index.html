@@ -174,11 +174,12 @@
             console.log (`同社は、${solution}人材育成のための法人向け研修サービス、「${solution}-${companyEng}」を起点に事業を開始し、現在は中長期のデジタル変革戦略の立案をするDXコンサルティング、さらに${solution}プロジェクトのPoC・本開発・運用といった${solution}ソリューション開発のサービスも提供している。`);
         }
         standardAi("東大", "サークル", "STANDARD", "スタンダード", "AI");
-        const esoraria = (character, covid19)=> {
+        const esoraria = (character, covid19, ad)=> {
             console.log (`制作環境の変化で拡大する${character}活用`);
-            console.log (`With${covid19}時代の広告制作 ${character}活用10のポイント`);
+            console.log (`With${covid19}時代の${ad}制作 ${character}活用10のポイント`);
+            console.log (`かつて、マス中心の${ad}展開では企業${character}の続投が難しい側面もあった。`);
         }
-        esoraria("キャラクター", "コロナ");
+        esoraria("キャラクター", "コロナ", "広告");
     </script>
 
     
