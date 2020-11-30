@@ -421,6 +421,9 @@ header li a:hover {
 .ServiceList {
 	margin-top: 64px;
 }
+.ServiceList li {
+	width: 240px;
+}
 
 
 
